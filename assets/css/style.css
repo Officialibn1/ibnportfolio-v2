@@ -862,6 +862,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
 	padding-bottom: 130px;
+	width: 100%;
 }
 
 .contact .info {
@@ -869,6 +870,7 @@ section {
 	background: #fff;
 	width: 100%;
 	box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+	width: 100%;
 }
 
 .contact .info i {

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - iPortfolio Bootstrap Template</title>
+  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -46,54 +46,97 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Alex Smith</a></h1>
+        <img src="assets/img/IMG_7583.JPEG" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Isah Ibn Muhammad</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/isah-muhammad-5046b125a/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a target="_blank" href="https://github.com/Officialibn1" class="google-plus"><i class="bx bxl-github"></i></a>
+          <a target="_blank" href="https://twitter.com/__ibn1" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a target="_blank" href="https://instagram.com/__ibn1?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr" class="instagram"><i class="bx bxl-instagram"></i></a>
         </div>
       </div>
 
+      
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="index.html#portfolio" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          
         </ul>
       </nav><!-- .nav-menu -->
+
+
+
+     
     </div>
   </header><!-- End Header -->
 
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <section class="breadcrumbs">
+    <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Inner Page</h2>
+          <h2>Portfoio Details</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Inner Page</li>
+            <li><a href="index.html#portfolio">Home</a></li>
+            <li>Portfoio Details</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section class="inner-page">
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-        <p>
-          Example inner page template
-        </p>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/Helpdesk.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/HelpdeskTicket.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/HelpdeskCreate.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Web design</li>
+                <li><strong>Client</strong>: HelpDesk for tickets</li>
+                <li><strong>Project date</strong>: 13 October, 2023</li>
+                <li><strong>Project URL</strong>: <a href="https://companyhelpdesk.vercel.app/" target="_blank">companyhelpdesk.vercel.app/</a></li>
+                <li><strong>GitHub URL</strong>: <a href="https://github.com/Officialibn1/companyhelpdesk" target="_blank">github.com/Officialibn1/companyhelpdesk</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Projcect Details</h2>
+              <p>
+                Company Helpdesk is a web application used for creating tickets and issues by company employess to be rolved, it helps to easily organize and prioritize issues that needs to be resolved, ensuring transparency and easy communication (Altought the project does not have a backend, it still have all the functions thats needed to be easily connected to a DB, from API's using Next API routes and loading states using the NextJS loading API for a great UX).
+              </p>
+            </div>
+          </div>
+
+        </div>
+
       </div>
-    </section>
+    </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
 
